@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
+    overflow-x: hidden;
 }
 .nav-link {
     color: #fff !important;

@@ -37,6 +37,9 @@ function Hero() {
                             color: "#fff",
                             fontFamily: "Bungee",
                             fontSize: "73px",
+                            "@media (max-width:991px)": {
+                                textShadow: "5px 5px 5px #000",
+                            },
                         }}
                     >
                         <span style={{ color: "#FCC83A" }}> 1,420 </span>
@@ -51,6 +54,9 @@ function Hero() {
                             maxWidth: "790px",
                             margin: "0 auto",
                             marginBottom: "25px",
+                            "@media (max-width:991px)": {
+                                textShadow: "5px 5px 5px #000",
+                            },
                         }}
                     >
                         have come together on the{" "}

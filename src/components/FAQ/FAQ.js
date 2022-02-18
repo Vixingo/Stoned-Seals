@@ -23,7 +23,7 @@ function FAQ() {
                         FAQ
                     </Typography>
                     <div className="row my-5">
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-5">
                             <Typography
                                 sx={{
                                     textAlign: "center",
@@ -45,7 +45,7 @@ function FAQ() {
                                 There will only be 1,420 Stoned Seals.
                             </Typography>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-5">
                             {" "}
                             <Typography
                                 sx={{
@@ -70,7 +70,7 @@ function FAQ() {
                         </div>
                     </div>
                     <div className="row mb-5">
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-5">
                             <Typography
                                 sx={{
                                     textAlign: "center",
@@ -93,7 +93,7 @@ function FAQ() {
                                 twitter for more info!
                             </Typography>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-5">
                             {" "}
                             <Typography
                                 sx={{

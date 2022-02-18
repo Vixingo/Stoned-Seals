@@ -18,7 +18,7 @@ function RoadBoxHolder() {
             >
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3">
+                        <div className="col-lg-3 col-md-6 my-5 ">
                             <Box
                                 sx={{
                                     backgroundColor: "#252525 ",
@@ -86,7 +86,7 @@ function RoadBoxHolder() {
                                 </Box>
                             </Box>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-lg-3 col-md-6 my-5">
                             <Box
                                 sx={{
                                     backgroundColor: "#252525 ",
@@ -189,7 +189,7 @@ function RoadBoxHolder() {
                                 </Box>
                             </Box>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-lg-3 col-md-6 my-5">
                             <Box
                                 sx={{
                                     backgroundColor: "#252525 ",
@@ -253,7 +253,7 @@ function RoadBoxHolder() {
                                 </Box>
                             </Box>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-lg-3 col-md-6 my-5">
                             <Box
                                 sx={{
                                     backgroundColor: "#252525 ",

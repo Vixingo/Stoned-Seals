@@ -23,6 +23,9 @@ function Coming() {
                                 color: "#fff",
                                 fontFamily: "Bungee",
                                 mb: 9,
+                                "@media(max-width:575px)": {
+                                    fontSize: "75px",
+                                },
                             }}
                         >
                             <span style={{ color: "#FCC83A" }}>COMING</span>{" "}
