@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
+import RoadBoxHolder from "./RoadBoxHolder";
 function Roadmap() {
     return (
         <>
@@ -14,10 +15,12 @@ function Roadmap() {
                             color: "#FCC83A",
                             fontFamily: "Bungee",
                             fontSize: "18px",
+                            mt: 1,
                         }}
                     >
                         ROADMAP
                     </Typography>
+                    <RoadBoxHolder />
                 </div>
             </section>
         </>

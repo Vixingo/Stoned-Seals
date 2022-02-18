@@ -6,6 +6,10 @@
 }
 body {
     background-color: #0c1d19;
+    background-image: url(../public/img/faqBG.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
 }
 .nav-link {
     color: #fff !important;

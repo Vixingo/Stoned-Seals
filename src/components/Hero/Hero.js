@@ -1,5 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
+import Smoke from "../Somke/Smoke";
+import zIndex from "@mui/material/styles/zIndex";
 function Hero() {
     return (
         <>
@@ -9,9 +11,25 @@ function Hero() {
                         className="hero_img"
                         sx={{
                             textAlign: "center",
+                            position: "relative",
                         }}
                     >
-                        <img src="../img/hero.png" alt="" />
+                        <Box sx={{ maxWidth: "680px", margin: "0 auto" }}>
+                            {" "}
+                            <img src="../img/hero.png" alt="" width={"100%"} />
+                        </Box>
+
+                        <Box
+                            sx={{
+                                position: "absolute",
+                                top: "60%",
+                                left: "50%",
+                                transform: "translate(50%)",
+                                zIndex: 2,
+                            }}
+                        >
+                            <Smoke />
+                        </Box>
                     </Box>
                     <Typography
                         sx={{

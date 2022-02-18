@@ -1,6 +1,7 @@
 import React from "react";
 import IconButton from "@mui/material/IconButton";
 import { Button, Stack } from "@mui/material";
+import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <>
@@ -15,9 +16,9 @@ function Navbar() {
             >
                 <nav className="navbar navbar-expand-lg navbar-dark ">
                     <div className="container">
-                        <a className="navbar-brand" href="#">
+                        <Link className="navbar-brand" to="/">
                             <img src="../img/logo.png" alt="" width={"100%"} />
-                        </a>
+                        </Link>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -35,32 +36,32 @@ function Navbar() {
                         >
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
                                 <li className="nav-item">
-                                    <a
+                                    <Link
                                         className="nav-link "
                                         aria-current="page"
-                                        href="#"
+                                        to="#"
                                     >
                                         ABOUT
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <Link className="nav-link" to="#">
                                         ROADMAP
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <Link className="nav-link" to="#">
                                         FAQ
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <Link className="nav-link" to={"mint"}>
                                         MINT
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
                                     <Stack sx={{ flexDirection: "row" }}>
-                                        <a className="nav-link" href="#">
+                                        <Link className="nav-link" to="#">
                                             <IconButton
                                                 sx={{
                                                     color: "#fff",
@@ -80,8 +81,8 @@ function Navbar() {
                                             >
                                                 <i class="fab fa-discord"></i>
                                             </IconButton>
-                                        </a>
-                                        <a className="nav-link" href="#">
+                                        </Link>
+                                        <Link className="nav-link" to="#">
                                             <IconButton
                                                 sx={{
                                                     color: "#fff",
@@ -98,7 +99,7 @@ function Navbar() {
                                             >
                                                 <i class="fab fa-twitter"></i>
                                             </IconButton>
-                                        </a>
+                                        </Link>
                                     </Stack>
                                 </li>
                             </ul>
